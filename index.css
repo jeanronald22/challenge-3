@@ -1,0 +1,86 @@
+body{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    padding: auto;
+    background-color: hsl(30, 38%, 92%);
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+    width: 570px;
+    height: 450px;
+    background-color:hsl(0, 0%, 100%);
+    border-radius: 20px;
+}
+.image{
+    width: 300px;
+    height: 450px;
+}
+img{
+    width: 300px;
+    height: 450px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+ul{
+    list-style: none;
+}
+.perfume{
+    letter-spacing: 5px;
+    color: rgb(129, 127, 127);
+}
+h2{
+    font-weight: bold;
+    font-size: 30px;
+}
+.description{
+    padding-bottom: -15px;
+    color: rgb(129, 127, 127);
+}
+.prise{
+    word-spacing: 15px;
+    font-size: 30px;
+    font-weight: bold;
+    color: hsl(158, 36%, 37%);
+   
+}
+.prise i{
+    font-size: 14px;
+    text-decoration: line-through;
+    padding-bottom: 10px;
+    font-weight: normal;
+    color: rgb(129, 127, 127);
+}
+input{
+    width: 200px;
+    padding: 7px;
+    background-color:  hsl(158, 36%, 37%);
+    border: none;
+    border-radius: 10px;
+    justify-content: center;
+    color: white;
+    margin-bottom: 10px;
+
+}
+input:hover{
+    background-color: hsl(158, 54%, 28%); ;
+}
+@media(max-width: 375px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        padding: auto;
+        margin: auto;
+    }
+    .container img{
+        content: url("images/image-product-mobile.jpg");
+        width: 375px;
+        border-radius: 0px;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+    }
+}
+
